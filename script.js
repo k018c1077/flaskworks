@@ -1,4 +1,3 @@
-setTimeout(() => {
 var cookies = document.cookie.split(';')
 for(var c of cookies){ //一つ一つ取り出して
   var cArray = c.split('=') //さらに=で分割して配列に
@@ -7,4 +6,3 @@ for(var c of cookies){ //一つ一つ取り出して
       break
   }
 }
-},100)
